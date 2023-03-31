@@ -14,6 +14,9 @@ $(call inherit-product, vendor/calyx/config/common.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+# Inherit ih8sn
+$(call inherit-product, device/xiaomi/munch/ih8sn/ih8sn.mk)
+
 PRODUCT_NAME := calyx_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
